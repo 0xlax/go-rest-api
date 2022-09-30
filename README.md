@@ -18,5 +18,17 @@ This project follows the [Standard Go Project Layout](https://github.com/golang-
 
 ### Build 
 
-1) Setup a MongoDB cloud database using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
-2) Create a database
+	go build main.go
+
+### Prerequisites
+	
+	1)Setup MongoDB locally on your machine
+		curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+		echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+		sudo apt install mongodb-org
+
+	2) Start MongoDB service
+
+		sudo apt install mongodb-org
+
+
