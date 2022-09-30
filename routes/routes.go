@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"gihub.com/0xlax/go-rest-api/controller"
+	"github.com/0xlax/go-rest-api/controller"
 	"github.com/julienschmidt/httprouter"
 )
 
