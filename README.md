@@ -27,8 +27,13 @@ This project follows the [Standard Go Project Layout](https://github.com/golang-
 		echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
 		sudo apt install mongodb-org
 
-	2) Start MongoDB service
-
+	2) Install MongoDB 
 		sudo apt install mongodb-org
+
+	3) Start Service
+		sudo systemctl start mongod.service
+
+	4) Verify COnnection Status
+		mongo --eval 'db.runCommand({ connectionStatus: 1 })'
 
 
