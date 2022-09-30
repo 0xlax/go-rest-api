@@ -12,5 +12,8 @@
 
 	Golang, NoSql DB - MongoDB suits the best :) 
 
-### Build Instrucitons
-	
+## File Structure
+
+	This project follows the [Standard Go Project Layout](https://github.com/golang-standards/project-layout) for better performance!
+
+### Build 
